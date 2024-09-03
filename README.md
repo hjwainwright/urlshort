@@ -1,12 +1,12 @@
-# Exercise #2: URL Shortener
+# URL Shortener
 
-[![exercise status: released](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/urlshort)
+[![status: eleased](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/urlshort)
 
 
 
-## Exercise details
+## Details
 
-The goal of this exercise is to create an [http.Handler](https://golang.org/pkg/net/http/#Handler) that will look at the path of any incoming web request and determine if it should redirect the user to a new page, much like URL shortener would.
+The work in this repository creates an [http.Handler](https://golang.org/pkg/net/http/#Handler) that looks at the path of any incoming web request and determines if it should redirect the user to a new page, much like URL shortener would.
 
 For instance, if we have a redirect setup for `/dogs` to `https://www.somesite.com/a-story-about-dogs` we would look for any incoming web requests with the path `/dogs` and redirect them.
 
